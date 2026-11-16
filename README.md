@@ -1,0 +1,1 @@
+# segmentacion-clientes-kmeans-scy1102

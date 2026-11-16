@@ -12,8 +12,8 @@ Proyecto de la asignatura **SCY1102 Gestión de Proyectos de Datos** (Duoc UC, s
 |---|---|
 | Tablero de gestión (Trello) | https://trello.com/b/6GBY0Z0G/segmentacion-de-clientes-scy1102 |
 | Notebook en Google Colab | [Abrir en Colab](https://colab.research.google.com/github/USUARIO/segmentacion-clientes-kmeans-scy1102/blob/main/notebooks/Actividad_3_1_2_Implementacion_Tecnica.ipynb) |
-| Dashboard (prototipo, tarea 6.1) | PEGAR_AQUI_EL_ENLACE_DE_NETLIFY |
-| Repositorio | PEGAR_AQUI_EL_ENLACE_DE_GITHUB |
+| Dashboard (prototipo, tarea 6.1) | https://segementacion-clientes.netlify.app |
+| Repositorio | https://github.com/crisromero-dev/segmentacion-clientes-kmeans-scy1102 |
 
 ## Qué hay en el repositorio
 

@@ -11,8 +11,9 @@ Proyecto de la asignatura **SCY1102 Gestión de Proyectos de Datos** (Duoc UC, s
 | Qué | Enlace |
 |---|---|
 | Tablero de gestión (Trello) | https://trello.com/b/6GBY0Z0G/segmentacion-de-clientes-scy1102 |
-| Dashboard (prototipo, tarea 6.1) | https://segementacion-clientes.netlify.app |
-| Repositorio | https://github.com/crisromero-dev/segmentacion-clientes-kmeans-scy1102 |
+| Notebook en Google Colab | [Abrir en Colab](https://colab.research.google.com/github/USUARIO/segmentacion-clientes-kmeans-scy1102/blob/main/notebooks/Actividad_3_1_2_Implementacion_Tecnica.ipynb) |
+| Dashboard (prototipo, tarea 6.1) | PEGAR_AQUI_EL_ENLACE_DE_NETLIFY |
+| Repositorio | PEGAR_AQUI_EL_ENLACE_DE_GITHUB |
 
 ## Qué hay en el repositorio
 
@@ -33,11 +34,18 @@ Proyecto de la asignatura **SCY1102 Gestión de Proyectos de Datos** (Duoc UC, s
 
 ## Cómo ejecutarlo
 
-1. Instalar dependencias: `pip install pandas numpy scikit-learn matplotlib seaborn openpyxl joblib`
-2. Dejar el archivo del caso (`Caso semestral_dataset.xlsx`) en la misma carpeta desde donde se abre el notebook. En Google Colab, el notebook pide subirlo.
-3. Ejecutar el notebook de principio a fin. Genera `modelo_segmentacion.joblib`.
-4. Reejecución mensual: `python src/segmentacion_mensual.py clientes.xlsx salidas` (el modelo guardado debe estar en la carpeta de trabajo).
-5. Dashboard: abrir `dashboard/index.html` en cualquier navegador.
+**En Google Colab (forma recomendada)**
+1. Abrir el notebook con el enlace "Abrir en Colab" de la tabla de enlaces (o el botón al inicio del notebook).
+2. Ejecutar todo: `Entorno de ejecución → Ejecutar todo`. Las librerías ya vienen instaladas en Colab.
+3. Cuando el notebook lo pida, subir el archivo del caso (`Caso semestral_dataset.xlsx`).
+4. El notebook guarda `modelo_segmentacion.joblib` y crea `segmentacion_mensual.py` en el espacio de trabajo de Colab. Para la reejecución mensual, en una celda nueva: `!python segmentacion_mensual.py "Caso semestral_dataset.xlsx" salidas`
+
+**En local (opcional)**
+1. `pip install pandas numpy scikit-learn matplotlib seaborn openpyxl joblib`
+2. Dejar el archivo del caso junto al notebook y ejecutarlo de principio a fin.
+3. Reejecución mensual: `python src/segmentacion_mensual.py clientes.xlsx salidas` (con `modelo_segmentacion.joblib` en la carpeta de trabajo).
+
+**Dashboard:** abrir `dashboard/index.html` en cualquier navegador, o el enlace publicado.
 
 ## Datos y privacidad
 
